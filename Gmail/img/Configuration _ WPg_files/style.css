@@ -1,0 +1,268 @@
+/*
+Theme Name: JustLanded Child
+Description: Child theme for JustLanded for WordPress
+Author: ShapingRain.com
+Template: justlanded
+*/
+
+@import url("../justlanded/style.css");
+
+
+/* Custom by Dan */
+
+.gal_home_p {
+  clear: both;
+  width: 385px;
+}
+
+div#gal_main_page_products_list {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+section#page-content-block-1 h2, section#page-content-block-1 h3, section#page-content-block-1 p {
+  text-align: center;
+}
+
+#gal_aioi h2, #gal_aioi h3, #gal_aioi p {
+  text-align: center;
+}
+
+table.gal_pricing_comparison {
+  margin: auto;
+}
+
+table.gal_pricing_comparison td {
+  padding: 5px;
+  border-bottom: 1px dashed #e5e5e5;
+  text-align: center;
+}
+
+table.gal_pricing_comparison th {
+  padding: 5px;
+}
+
+table.gal_pricing_comparison td:first-child {
+  text-align: left;
+}
+
+div.gal_pricing_list {
+  background: #f0f0f0;
+  padding: 10px 5px 10px 5px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+div.gal_license_tabs {
+  text-align: center;
+  margin: 10px auto;
+}
+
+div.gal_license_tabs a {
+  padding: 8px;
+  display: inline-block;
+  font-family: 'Merriweather',sans-serif;
+  font-size: 2em;
+  margin: 2px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-color: #dfdfdf;
+  color: black;
+  cursor: pointer;
+}
+
+div.gal_license_tabs a.selected {
+  background-color: #666666;
+  color: white;
+}
+
+div.gal_edd_pricelist {
+  display: inline-block;
+  margin: 30px 2% 30px 7%;
+  position: relative;
+  width: 40%;
+  min-width: 200px;
+}
+
+.gal_pricing_list_major .edd_price_options.edd_single_mode {
+  min-height: 130px;
+}
+
+div.testsection img {
+  float: left;
+}
+
+div.testsection h2 {
+  margin-left: 60px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+div.gal_demo_page {
+  text-align: center;
+}
+
+p.gal_demo_page {
+  clear: both;
+  padding-top: 20px;
+}
+
+/* For Drive folder demo */
+
+table.gdm-folders-table th {
+    padding: 10px;
+}
+
+table.gdm-folders-table td {
+    padding: 2px 15px 2px 0px;
+}
+
+/* end */
+
+#landing_header_inner {
+  overflow: visible;
+}
+
+article#content {
+  margin-bottom: 40px;
+}
+
+pre {
+  background: #e3effc;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  padding: 1.6em;
+  overflow: auto;
+  max-width: 100%;
+  word-break: break-word;
+}
+
+div.wpg_guarantee {
+  background: #dfdfdf;
+  min-height: 111px;
+  margin: 1.8em auto 0px;
+  padding: 1em;
+  max-width: 500px;
+}
+
+a.arrow_link {
+  display: inline;
+  margin: 0 8px 0 0;
+  padding: 0 0 0 12px;
+  background-image: url('images/gt.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+/* For Documentation plugin */
+
+.documentation-hierarchy ul {
+    margin-left: 20px;
+}
+
+.documentation-hierarchy ul.children {
+    margin-left: 5px;
+    padding-left: 5px;
+    background: none;
+}
+
+div.documentation-hierarchy a {
+    padding: 5px;
+    background: none;
+}
+
+div.documentation-hierarchy ul, div.documentation-hierarchy li {
+    border: none;
+}
+
+div.documentation-hierarchy li {
+    margin: 5px;
+}
+
+div.documentation-hierarchy li.current_page_item > a {
+    background-color: #166599;
+    color: white !important;
+}
+
+div.documentation ul.children {
+    background: none;
+    border: none;
+}
+
+div.documentation ul, div.documentation > li {
+   margin-bottom: 20px;
+}
+
+div.document table th, div.document table td {
+   padding: 5px;
+}
+
+
+/* For EDD */
+
+table#edd_purchase_receipt td, table#edd_purchase_receipt th,
+table#edd_purchase_receipt_products td, table#edd_purchase_receipt_products th {
+    border: 1px solid;
+    padding: 5px;
+}
+
+table#edd_purchase_receipt, table#edd_purchase_receipt_products {
+    margin-bottom: 35px;
+}
+
+/* Google Apps Directory Demo */
+
+div.gad-google-apps-directory-table table.gad-listing-table {
+    margin: auto;
+}
+
+table.gad-listing-table td, table.gad-listing-table th {
+    padding: 6px 25px 6px 16px;
+    text-align: left;
+}
+
+table.gad-listing-table th  {
+    font-weight: bold;
+}
+
+.gad-google-apps-directory-table div, .gad-google-apps-directory-table img {
+    vertical-align: middle;
+}
+
+input.gad-listing-filter-reset {
+    margin-left: 4px;
+}
+
+/* Licenses list on My Purchases page */
+
+table#edd_sl_license_keys th {
+    font-weight: 700;
+    background: #f5f5f5;
+}
+
+
+table#edd_sl_license_keys td, table#edd_sl_license_keys th {
+    text-align: left;
+    padding: 3px 5px;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: none;
+}
+
+table#edd_sl_license_upgrades th {
+    font-weight: 700;
+    background: #f5f5f5;
+}
+
+
+table#edd_sl_license_upgrades td, table#edd_sl_license_upgrades th {
+    text-align: left;
+    padding: 3px 5px;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: none;
+}
+

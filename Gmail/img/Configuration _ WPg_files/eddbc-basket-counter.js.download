@@ -1,0 +1,17 @@
+
+jQuery(document).ready(function($) {
+
+    $('div.eddbc-basket-area a.eddbc-basket')
+        .on('mouseenter',
+            function(e){
+                $(this).parent().next('div.eddbc-shopping-cart-area').slideDown('fast');
+                e.preventDefault();
+            })
+        .parent().parent().on('mouseleave',
+            function(e){
+                $(this).find('div.eddbc-shopping-cart-area').slideUp('fast');
+                e.preventDefault();
+            }
+        );
+
+});
